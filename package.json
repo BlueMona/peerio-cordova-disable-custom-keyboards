@@ -1,0 +1,31 @@
+{
+  "name": "com.peerio.cordova.plugin.disablecustomkeyboards",
+  "version": "1.0.0",
+  "description": "Peerio Cordova disable custom keyboards plugin for iOS",
+  "cordova": {
+    "id": "com.peerio.cordova.plugin.disablecustomkeyboards",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "original": "yes",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PeerioTechnologies/peerio-cordova-disable-custom-keyboards"
+  },
+  "keywords": [
+    "cordova",
+    "peerio",
+    "keyboard",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "author": "Samvel Avanesov",
+  "contributors": [
+      {
+          "name": "Samvel Avanesov",
+          "email": "seavan@gmail.com"
+      }
+  ],
+  "license": "MIT"
+}

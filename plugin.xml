@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="com.peerio.cordova.plugin.disablecustomkeyboards"
+    version="1.0.0">
+    <name>Peerio disable custom keyboards plugin for Cordova iOS</name>
+    <description>
+        This plugin disables custom keyboards (like SwiftKey) for iOS to prevent 
+        3-rd party applications from sniffing on your data.
+	</description>
+    <license>Apache 2.0</license>
+    <keywords>keyboard,cordova,ios,peerio</keywords>	
+    
+    <engines>
+        <engine name="cordova-ios" version=">=2.2.0" />
+    </engines>
+	
+    <!-- ios -->
+    <platform name="ios">
+		<config-file target="config.xml" parent="/*">
+			<feature name="PeerioDisableCustomKeyboards">
+				<param name="ios-package" value="PeerioDisableCustomKeyboards" />
+			</feature>
+		</config-file> 
+        <header-file src="src/ios/AppDelegate+customkeyboards.h" />
+        <source-file src="src/ios/AppDelegate+customkeyboards.m" />
+    </platform>
+</plugin>

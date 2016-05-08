@@ -1,0 +1,18 @@
+*.tmp
+*.log
+*.keystore
+.DS_Store
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# build release apk output
+/bin
+
+# npm and bower cache
+/bower_components
+/node_modules
+
+# debug variables file with potentially sensitive info
+/debug.js
+
